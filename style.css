@@ -1,0 +1,109 @@
+*{
+ box-sizing: border-box;
+}
+
+body{
+ width: 100vw;
+ height: 100vh;
+ margin: 0;
+ 
+}
+header{
+height: 3rem;
+background-color: rgb(255, 25, 25);
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+
+}
+header i{
+ font-size: 2rem;
+ cursor: pointer;
+}
+header h2{
+ margin: auto 0;
+ padding: 0;
+ font-size: 1rem;
+ cursor: pointer;
+
+}
+
+header #logo{
+ display: flex;
+}
+
+header div ul{
+ display: inline-block;
+ list-style: none;
+ display: flex;
+ gap: 2rem;
+ cursor: pointer;
+ align-items: center;
+ padding: 0;
+ margin-left: 100px;
+}
+
+div ul li:hover{
+ padding: 15px 0;
+ border-bottom: 3px solid black;
+}
+
+header div button{
+ background-color: rgb(6, 6, 6);
+ color: rgb(255, 255, 255);
+ padding: 7px 15px;
+ border-radius: 10px;
+ border: none;
+ font-family: sans-serif;
+ font-weight: bold;
+ font-size: 15px;
+ border: 2px solid white;
+}
+
+header div button:hover{
+    background-color: rgb(36, 0, 0)
+}
+.btn-li:hover{
+    padding: 8px 0;
+    border-bottom: 3px solid black;
+}
+
+/* header div li button:hover{
+    padding: 15px 0;
+    border-bottom: 3px solid black;
+} */
+
+#first-section{
+ background-image: url('https://dnm.nflximg.net/api/v6/BvVbc2Wxr2w6QuoANoSpJKEIWjQ/AAAAQZUkwT6XhdDnNqAsPrZiQWWHvhpJo0cviRndWweNeFE0G6sOOa7ltzrwXSocCIsqRqAcruHZtEk-MBx_qLAJz-43yAbJAJXmEYKEMD78GRjJ3ro5x5T97jaAj0NwMiaHvO4mNGLRmwNAPE2yA0LWWV1UfQI.jpg?r=48b');
+ background-repeat: no-repeat;
+ background-size: cover;
+ /* background-position: center; */
+ height: 40vh;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding-top: 50px;
+}
+#first-section h1{
+ margin: 0;
+font-size: 2rem;
+}
+
+#first-section div{
+ 
+}
+#first-section div ul{
+ display: flex;
+ list-style: none;
+ gap: 2rem;
+ text-transform: uppercase;
+ justify-content: center;
+ font-weight: bold;
+ padding: 0;
+ align-items: center;
+}
+
+#first-section div ul:hover{
+    padding: 0;
+    padding-bottom: 10px;
+}
