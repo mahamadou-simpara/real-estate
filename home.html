@@ -1,53 +1,280 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
     <title>Real-estate</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div id="logo">
-            <i class="fa-solid fa-house"></i>
-            <h2>Sobane</h2>
-        </div>
+      <div id="logo">
+        <i class="fa-solid fa-house"></i>
+        <h2>Sobane</h2>
+      </div>
 
-        <div>
-            <ul>
-                <li>Buy</li>
-                <li>Sell</li>
-                <li>My Home</li>
-                <li>News & Insight</li>
-            </ul>
-        </div>
+      <div>
+        <ul>
+          <li>Buy</li>
+          <li>Sell</li>
+          <li>My Home</li>
+          <li>News & Insight</li>
+        </ul>
+      </div>
 
-        <div>
-            <ul>
-                <li class="btn-li"><button>Log in</button></li>
-                <li class="btn-li"><button>Log out</button></li>
-            </ul>
-        </div>
+      <div>
+        <ul>
+          <li class="btn-li"><button>Log in</button></li>
+          <li class="btn-li"><button>Log out</button></li>
+        </ul>
+      </div>
     </header>
     <main>
-        <section id="first-section">
-            <h1>To each their home</h1>
-            <p>Let's find a home that's perfect for you</p>
+      <section id="first-section">
+        <h1>To each their home</h1>
+        <p>Let's find a home that's perfect for you</p>
 
         <div>
-            <ul>
-                <li>Buy</li>
-                <li>RENT</li>
-                <li>Just sold</li>
-                <li>Home value</li>
-            </ul>
+          <ul>
+            <li>Buy</li>
+            <li>RENT</li>
+            <li>Just sold</li>
+            <li>Home value</li>
+          </ul>
         </div>
+        <div id="input-container">
+          <input type="text" placeholder="Address, School, Zip, Neighborhood" />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </section>
+
+      <section id="second-section">
         <div>
-            <input type="text">
-            <i class="fa-solid fa-magnifying-glass"></i>
+          <h2>Home around $510,000</h2>
+          <small><a href="#">View all in New York</a></small>
         </div>
-        </section>
+        <div id="house-container">
+          <div class="house">
+            <img src="./imgs/download.jpg" alt="house-picture" />
+            <i class="fa-regular fa-heart heart"></i>
+            <div class="overall-detail">
+              <hr />
+              <p><i class="fa-solid fa-square"></i> Single-Family Home</p>
+              <hr />
+              <h3>$404.000</h3>
+              <div class="house-detail">
+                <p><strong>3</strong> bed</p>
+                <p><strong>2</strong> bath</p>
+                <p><strong>100</strong> sqft</p>
+              </div>
+              <p>1635 Parkside Dr</p>
+              <p>Tracy CA 95376</p>
+            </div>
+          </div>
+
+       
+          <div class="house">
+            <img src="./imgs/download.jpg" alt="house-picture" />
+            <i class="fa-regular fa-heart heart"></i>
+            <div class="overall-detail">
+              <hr />
+              <p><i class="fa-solid fa-square"></i> Single-Family Home</p>
+              <hr />
+              <h3>$404.000</h3>
+              <div class="house-detail">
+                <p><strong>3</strong> bed</p>
+                <p><strong>2</strong> bath</p>
+                <p><strong>100</strong> sqft</p>
+              </div>
+              <p>1635 Parkside Dr</p>
+              <p>Tracy CA 95376</p>
+            </div>
+          </div>
+
+          <div class="house">
+            <img src="./imgs/download.jpg" alt="house-picture" />
+            <i class="fa-regular fa-heart heart"></i>
+            <div class="overall-detail">
+              <hr />
+              <p><i class="fa-solid fa-square"></i> Single-Family Home</p>
+              <hr />
+              <h3>$404.000</h3>
+              <div class="house-detail">
+                <p><strong>3</strong> bed</p>
+                <p><strong>2</strong> bath</p>
+                <p><strong>100</strong> sqft</p>
+              </div>
+              <p>1635 Parkside Dr</p>
+              <p>Tracy CA 95376</p>
+            </div>
+          </div>
+         
+
+        </div>
+      </section>
+
+
+      <section id="second-section">
+        <div>
+          <h2>Newest Listings</h2>
+          <small><a href="#">View all in Calfornia</a></small>
+        </div>
+        <div id="house-container">
+          <div class="house">
+            <img src="./imgs/images (1).jpg" alt="house-picture" />
+            <i class="fa-regular fa-heart heart"></i>
+            <div class="overall-detail">
+              <hr />
+              <p><i class="fa-solid fa-square"></i> Single-Family Home</p>
+              <hr />
+              <h3>$404.000</h3>
+              <div class="house-detail">
+                <p><strong>3</strong> bed</p>
+                <p><strong>2</strong> bath</p>
+                <p><strong>100</strong> sqft</p>
+              </div>
+              <p>1635 Parkside Dr</p>
+              <p>Tracy CA 95376</p>
+            </div>
+          </div>
+
+       
+          <div class="house">
+            <img src="./imgs/images (1).jpg" alt="house-picture" />
+            <i class="fa-regular fa-heart heart"></i>
+            <div class="overall-detail">
+              <hr />
+              <p><i class="fa-solid fa-square"></i> Single-Family Home</p>
+              <hr />
+              <h3>$404.000</h3>
+              <div class="house-detail">
+                <p><strong>3</strong> bed</p>
+                <p><strong>2</strong> bath</p>
+                <p><strong>100</strong> sqft</p>
+              </div>
+              <p>1635 Parkside Dr</p>
+              <p>Tracy CA 95376</p>
+            </div>
+          </div>
+
+          <div class="house">
+            <img src="./imgs/images (1).jpg" alt="house-picture" />
+            <i class="fa-regular fa-heart heart"></i>
+            <div class="overall-detail">
+              <hr />
+              <p><i class="fa-solid fa-square"></i> Single-Family Home</p>
+              <hr />
+              <h3>$404.000</h3>
+              <div class="house-detail">
+                <p><strong>3</strong> bed</p>
+                <p><strong>2</strong> bath</p>
+                <p><strong>100</strong> sqft</p>
+              </div>
+              <p>1635 Parkside Dr</p>
+              <p>Tracy CA 95376</p>
+            </div>
+          </div>
+         
+
+        </div>
+      </section>
+
+      <section id="another-section">
+        <div>
+          <h2>Newest Listings</h2>
+          <small><a href="#">View all in Calfornia</a></small>
+        </div>
+        <div id="house-container">
+          <div class="house">
+            <img src="./imgs/images (2).jpg" alt="house-picture" />
+            <i class="fa-regular fa-heart heart"></i>
+            <div class="overall-detail">
+              <hr />
+              <p><i class="fa-solid fa-square"></i> Single-Family Home</p>
+              <hr />
+              <h3>$404.000</h3>
+              <div class="house-detail">
+                <p><strong>3</strong> bed</p>
+                <p><strong>2</strong> bath</p>
+                <p><strong>100</strong> sqft</p>
+              </div>
+              <p>1635 Parkside Dr</p>
+              <p>Tracy CA 95376</p>
+            </div>
+          </div>
+
+       
+          <div class="house">
+            <img src="./imgs/images (2).jpg" alt="house-picture" />
+            <i class="fa-regular fa-heart heart"></i>
+            <div class="overall-detail">
+              <hr />
+              <p><i class="fa-solid fa-square"></i> Single-Family Home</p>
+              <hr />
+              <h3>$404.000</h3>
+              <div class="house-detail">
+                <p><strong>3</strong> bed</p>
+                <p><strong>2</strong> bath</p>
+                <p><strong>100</strong> sqft</p>
+              </div>
+              <p>1635 Parkside Dr</p>
+              <p>Tracy CA 95376</p>
+            </div>
+          </div>
+
+          <div class="house">
+            <img src="./imgs/images (2).jpg" alt="house-picture" />
+            <i class="fa-regular fa-heart heart"></i>
+            <div class="overall-detail">
+              <hr />
+              <p><i class="fa-solid fa-square"></i> Single-Family Home</p>
+              <hr />
+              <h3>$404.000</h3>
+              <div class="house-detail">
+                <p><strong>3</strong> bed</p>
+                <p><strong>2</strong> bath</p>
+                <p><strong>100</strong> sqft</p>
+              </div>
+              <p>1635 Parkside Dr</p>
+              <p>Tracy CA 95376</p>
+            </div>
+          </div>
+         
+
+        </div>
+      </section>
+
+
+      <section id="hill-house">
+<p>Unique Homes</p>
+<h2>Magnificent Mountaintop Retreat in .... Superb Views is the Week's Most Popular Home</h2>
+<div>
+    <button> Read More</button>
+</div>
+      </section>
+<!-- 
+      <section id="suggestion">
+        <h2>Mail</h2>
+        <h2>Magnificent Mountaintop Retreat in .... Superb Views is the Week's Most Popular Home</h2>
+        <div>
+            <button> Read More</button>
+        </div>
+              </section> -->
+
+    <footer>
+
+    </footer>
+        
+
     </main>
-</body>
+  </body>
 </html>

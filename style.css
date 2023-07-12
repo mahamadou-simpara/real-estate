@@ -1,12 +1,14 @@
 *{
  box-sizing: border-box;
+ font-family: 'Roboto Slab', serif;
 }
 
 body{
  width: 100vw;
  height: 100vh;
  margin: 0;
- 
+ overflow-x: hidden;
+
 }
 header{
 height: 3rem;
@@ -17,7 +19,7 @@ justify-content: space-evenly;
 
 }
 header i{
- font-size: 2rem;
+ font-size: 2.4rem;
  cursor: pointer;
 }
 header h2{
@@ -25,7 +27,7 @@ header h2{
  padding: 0;
  font-size: 1rem;
  cursor: pointer;
-
+ font-family: 'Roboto Slab', serif;
 }
 
 header #logo{
@@ -40,12 +42,17 @@ header div ul{
  cursor: pointer;
  align-items: center;
  padding: 0;
- margin-left: 100px;
+ /* margin-left: 100px; */
 }
 
-div ul li:hover{
- padding: 15px 0;
- border-bottom: 3px solid black;
+header div ul li{
+    font-family: 'Roboto Slab', serif;
+    padding: 13px 0;
+    border-bottom: 3px solid transparent;
+}
+
+ div ul li:hover{
+ border-color: black;
 }
 
 header div button{
@@ -86,7 +93,8 @@ header div button:hover{
 }
 #first-section h1{
  margin: 0;
-font-size: 2rem;
+font-size: 2.5rem;
+font-family: 'Roboto Slab', serif;
 }
 
 #first-section div{
@@ -100,10 +108,203 @@ font-size: 2rem;
  justify-content: center;
  font-weight: bold;
  padding: 0;
- align-items: center;
+ /* padding-bottom: 20px; */
+ /* align-items: center; */
 }
 
-#first-section div ul:hover{
-    padding: 0;
+#first-section div ul li{
+    /* padding: unset; */
     padding-bottom: 10px;
+    border-bottom: 3px solid transparent;
+
 }
+
+#first-section div ul li:hover{
+   border-color: black;
+}
+
+#input-container{
+ height: 2.6rem;
+ width: 30rem;
+ display: flex;
+ justify-content: center;
+ position: relative;
+
+}
+#input-container input{
+height: 100%;
+margin: 0 auto;
+width: 100%;
+border-radius: 20px;
+border: none;
+padding-left: 20px;
+}
+#input-container input:active{
+ outline: none;
+}
+
+#input-container i{
+ position: absolute;
+ right: 5px;
+ top: 10%;
+ background-color: black;
+ width: 2rem;
+ height: 2rem;
+ color: rgb(255, 25, 25);
+ border-radius: 50%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ cursor: pointer;
+}
+
+#second-section{
+ width: 80vw;
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ margin: 40px auto;
+ gap: 1.5rem;
+
+}
+
+#second-section div h2{
+ margin: 0;
+ margin-top: 25px;
+}
+#second-section div small{
+ color: rgb(51, 51, 176);
+ cursor: pointer;
+ 
+}
+
+#second-section div small a{
+    text-decoration: none;
+}
+
+#second-section div small a:hover{
+    text-decoration: underline;
+}
+#house-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    /* justify-content: center; */
+    justify-content: space-between;
+
+}
+.house{
+ border: 3px solid rgba(0, 0, 0, 0.879);
+ /* width: 15rem;
+ height: 20rem; */
+ overflow: hidden;
+ overflow: hidden;
+ display: flex;
+ flex-direction: column;
+ flex: 1;
+ border-radius: 7px;
+ position: relative;
+}
+.fa-regular.fa-heart.heart{
+ position: absolute;
+ font-size: 2rem;
+ right: 5px;
+ top: 39%;
+ /* color: rgba(26, 26, 26, 0.879); */
+}
+
+.fa-solid.fa-square{
+ color: rgb(50, 100, 100);
+}
+
+/* .house:nth-child(4n+1) {
+    clear: left;
+  } */
+
+.overall-detail{
+    padding: 10px;
+    overflow-y: hidden;
+}
+.house img{
+ width: 100%;
+ height: 50%;
+ object-fit: cover;
+}
+
+.house p, h3{
+ margin: 5px 0;
+}
+
+.house-detail{
+ display: flex;
+ flex-direction: row;
+ gap: 0.5rem;
+}
+
+
+/*                   */
+
+
+#another-section{
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 40px auto;
+    gap: 1.5rem;
+   
+   }
+   
+   #another-section div h2{
+    margin: 0;
+    margin-top: 25px;
+   }
+   #another-section div small{
+    color: rgb(51, 51, 176);
+    cursor: pointer;
+    
+   }
+   
+   #another-section div small a{
+       text-decoration: none;
+   }
+   
+   #another-section div small a:hover{
+       text-decoration: underline;
+   }
+
+   #hill-house{
+background-image: url('https://www.home-designing.com/wp-content/uploads/2010/07/Villa-in-Alpine-hills.jpg');
+background-image: url('https://www.homelane.com/blog/wp-content/uploads/2022/11/slope-house-design.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+  width: 100vw;
+  height: 50vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  /* padding: 5rem; */
+  flex-direction: column;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+   }
+
+   #hill-house button{
+   padding: 10px 50px;
+   background-color: rgba(255, 255, 255, 0.744);
+   border: 2px solid rgba(255, 255, 255, 0.744);
+   cursor: pointer;
+   }
+
+   #hill-house button:hover{
+background-color:  white;
+border-color:white;
+   }
+
+   footer{
+    margin-top: 2rem;
+    width: 100vw;
+   height: 60vh;
+   background-color: black;
+   }
